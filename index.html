@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>UCSD Apartments</title>
+    <link rel="icon" type="image/x-icon" href="image/icon.ico">
+    <style>
+        h1 {text-align: center}
+      </style>
+</head>
+
+<body>
+    <header>
+        <image src="image/icon.ico" alt="site icon" width="100" height="100"></image>
+        <h1>UCSD Apartments</h1>
+        <nav>
+            <h2>
+                <a href="index.html">List</a> |
+                <a href="summary.html">Summary</a> |
+                <a href="contact.html">Contact</a>
+            </h2>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section>
+            <table>
+                <caption>List</caption>
+                <colgroup>
+                    <col span="2" width="200px">
+                    <col span="3" width="50px">
+                </colgroup>
+                <tr>
+                    <th>Name</th>
+                    <th>Plan</th>
+                    <th>Unit</th>
+                    <th>Rent</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td>Costa Verde Village</td>
+                    <td>Soledad Studio/South Village</td>
+                    <td>4214</td>
+                    <td>$2,475</td>
+                    <td><a href="https://www.gardencommunitiesca.com/communities/costa-verde-village/">here</a></td>
+                </tr>
+                <tr>
+                    <td>Towers at Costa Verde</td>
+                    <td>9th fl H plan 1 br d</td>
+                    <td>1103</td>
+                    <td>$3,175</td>
+                    <td><a href="https://www.gardencommunitiesca.com/communities/towers-at-costa-verde/">here</a></td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <hr>
+            <p><strong><em>Lab Playground</em></strong></p>
+            <details>
+                <summary><b><i>Secret</i></b></summary>
+                <ul>
+                    <li>This</li>
+                    <li>is</li>
+                    <li>unordered!</li>
+                </ul>
+                <ol>
+                    <li>This</li>
+                    <li>is</li>
+                    <li>ordered!</li>
+                </ol>
+            </details>
+            <br>
+
+            <h3>A sunrise video shot by me</h3>
+            <video width="600" height="400" controls>
+                <source src="video/Sunrise.mp4" type="video/mp4">
+            </video>
+            <br>
+
+            <h3>Me singing in bathroom</h3>
+            <audio controls>
+                <source src="audio/RR.mp3" type="audio/mp3">
+            </audio>
+            <h3>secret below hidden by template tag:</h3>
+            <template>world is not ending!</template>
+            <br>
+
+            <label>are you above 21?:</label>
+            <select>
+                <option>yes</option>
+                <option>no</option>
+            </select>
+            <br>
+
+            <figure>
+                <svg width="100" height="100">
+                    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+                  </svg>
+                <figcaption>Fig.1 - w3schools.</figcaption>
+            </figure>
+            <br>
+            
+            <label>where do you live?:</label>
+            <input list="places">
+            <datalist id="places">
+                <optgroup label="Around UTC">
+                <option value="UTC">
+                <option value="San Diego Downtown">
+                <option value="La Jolla Downtown">
+            </datalist>
+            <br>
+            <br>
+
+            <lebel>your favorite <span style="color:red">tech brand:</span></lebel>
+                <select>
+                    <optgroup label="US">
+                        <option>Apple</option>
+                        <option>Amazon</option>
+                        <option>Tesla</option>
+                    </optgroup>
+                    <optgroup label="Japan">
+                        <option>Sony</option>
+                        <option>Yamaha</option>
+                    </optgroup>
+                </select>
+                <br>
+                <br>
+                
+                <p>A navy square:</p>
+                <canvas id="myCanvas">Javascript is not supported.</canvas>
+                <script>
+                var ctx = document.getElementById("myCanvas").getContext("2d");
+                ctx.fillStyle = "navy";
+                ctx.fillRect(100, 0, 100, 100);
+                </script>
+                <br>
+
+                <p>An iframe to the contact page of this site:</p>
+                <iframe src="contact.html" title="contact page"></iframe>
+                <br>
+
+                <pre>include    tabs in html        
+                    and new line!</pre>
+                <br>
+                
+                <code>print('hello, world!')</code>
+                <br>
+                
+                <aside>"The way to make people trust-worthy is to trust them." - Ernest Hemingway</aside>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>💯This page was made with &hearts; by Bruce Zhou 💯</p>
+    </footer>
+
+</body>
+
+</html>
